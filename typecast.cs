@@ -11,8 +11,7 @@ namespace TypecastingApplication {
             double x = 36.34;
             int y = (int)x;     // Type casting
     
-            Console.WriteLine("double: " + x);
-            Console.WriteLine("integer: " + y);
+            Console.WriteLine("double: {0}\ninteger: {1}", x, y);
         }
     }
 }
