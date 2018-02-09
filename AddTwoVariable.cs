@@ -2,6 +2,8 @@
 
 using System;
 
+namespace SumApplication {
+   
    class Add_Two_Numbers {
        
        static void Main() {
@@ -15,3 +17,4 @@ using System;
            Console.WriteLine(" Result is {0}", sum);	// printing the result .
        }
    }
+}
