@@ -12,6 +12,6 @@ using System;
            num_2 = 15;
            sum = num_1 + num_2;		// adding two variables .
            
-           Console.WriteLine(" Result is " + sum + " .");	// printing the result .
+           Console.WriteLine(" Result is {0}", sum);	// printing the result .
        }
    }
