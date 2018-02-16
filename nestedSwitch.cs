@@ -50,9 +50,19 @@ namespace NestedSwitchApplication {
                             
                             Console.WriteLine("You are a student of Electrical Technology .");   // if electrical department
                             break;
+
+                    default:
+                        Console.WriteLine("You must enter the name of your department .");
+                        break;
                     }
                 break;
+
+            default:
+                Console.WriteLine("I don't know who you are .");
+                break;
             }
+
+            Console.ReadLine();
         }
     }
 }
