@@ -12,7 +12,7 @@ namespace LoopApplication {
 
             for (n = 1; n <= 20 ; n++) {
                 
-                // assigned 1 as the value of n and printing 1-20 using loop     
+                // assigned 1 as the value of n and printing 1-20 using for loop     
                 Console.WriteLine("Value of N is: {0}", n);
             }
             Console.ReadLine();
