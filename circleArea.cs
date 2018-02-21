@@ -1,3 +1,5 @@
+// Programmed by MD. Mehedi Hasan
+
 using System;
 
 namespace CalculateCircleArea {
@@ -13,6 +15,8 @@ namespace CalculateCircleArea {
 
             double circle_area = pi * r * r;    // calculating circle area .
             Console.WriteLine("Circle area is: {0}", circle_area);
+
+            Console.ReadLine();
 
         }
     }
