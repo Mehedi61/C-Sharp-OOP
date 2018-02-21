@@ -1,3 +1,5 @@
+// Programmed by MD. Mehedi Hasan
+
 using System;
 
 namespace RectangleApplication {
@@ -37,7 +39,7 @@ namespace RectangleApplication {
     class Print_Rectangle {
 
         static void Main() {
-            
+
             Rectangle_Area r = new Rectangle_Area();
             r.Get_Accept_Details();
             r.Display();
