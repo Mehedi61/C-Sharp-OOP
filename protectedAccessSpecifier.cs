@@ -20,7 +20,9 @@ namespace ProtectedApplication {
 
             string full_name = r.first_name + r.last_name; // concatenating for making full name
 
-            Console.WriteLine("Name: " + full_name);  
+            Console.WriteLine("Name: " + full_name);
+
+            Console.ReadLine(); 
         }
     }
 }
