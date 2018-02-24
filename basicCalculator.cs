@@ -33,6 +33,7 @@ namespace Calculator_APP {
 
                     Console.WriteLine("result: {0}", sum);
                 }
+            Console.ReadLine();
         }
     }
 }
