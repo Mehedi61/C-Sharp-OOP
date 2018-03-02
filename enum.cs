@@ -19,10 +19,10 @@ namespace EnumApp {
 
         Console.WriteLine("Zero: {0}", zero);
         Console.WriteLine("One: {0}", one);
-	    Console.WriteLine("Two: {0}", two);
-	    Console.WriteLine("Three: {0}", three);
-	    Console.WriteLine("Four: {0}", four);
-	    Console.WriteLine("Five: {0}", five);
+	      Console.WriteLine("Two: {0}", two);
+	      Console.WriteLine("Three: {0}", three);
+	      Console.WriteLine("Four: {0}", four);
+	      Console.WriteLine("Five: {0}", five);
         Console.ReadLine();
       }
    }
