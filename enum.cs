@@ -15,7 +15,7 @@ namespace EnumApp {
         int two = (int)Numbers.two;
         int three = (int)Numbers.three;
         int four = (int)Numbers.four;
-        int five = (int)Numbers.five;         
+        int five = (int)Numbers.five;
 
         Console.WriteLine("Zero: {0}", zero);
         Console.WriteLine("One: {0}", one);
@@ -24,6 +24,7 @@ namespace EnumApp {
 	      Console.WriteLine("Four: {0}", four);
 	      Console.WriteLine("Five: {0}", five);
         Console.ReadLine();
+              
       }
    }
 }
