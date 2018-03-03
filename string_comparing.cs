@@ -10,17 +10,19 @@ namespace StringCompare {
 
             string name_one, name_two;
 
-            name_one = "Mehedi";
-            name_two = "Emon";
+            Console.Write("Enter a name: ");
+            name_one = Console.ReadLine();
+            Console.Write("Enter another name: ");
+            name_two = Console.ReadLine();
 
             if (string.Compare(name_one, name_two) == 0) {
 
-                Console.WriteLine(name_one + " and " + name_two + " are same.");
+                Console.WriteLine(name_one + " and " + name_two + " are equal.");
             }
 
             else {
 
-                Console.WriteLine(name_one + " and " + name_two + " are not same.");
+                Console.WriteLine(name_one + " and " + name_two + " are not equal.");
             }
 
             Console.ReadLine();
