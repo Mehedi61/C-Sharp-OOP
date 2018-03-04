@@ -27,7 +27,7 @@ namespace BookInfoApp {
             book_one.subject = "C# Programming Book";
             book_one.id = "68945";
 
-            // book_two specifications
+            // book_two specification
             book_two.title = "C# 6.0 in a Nutshell";
             book_two.edition = "6th";
             book_two.author = "Ben Albahari & Joseph Albahari";
