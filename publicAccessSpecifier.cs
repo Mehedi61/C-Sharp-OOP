@@ -27,15 +27,15 @@ namespace FullNameApplication {
             
 	        Make_Name r = new Make_Name();  // creating instance of Make_Name() class.
             
-            Console.Write("Enter your first name: ");
-            r.first_name = Console.ReadLine();  // taking input for first_name
-            
-            Console.Write("Enter your last name: ");
-            r.last_name = Console.ReadLine();  // taking input for last_name
+		Console.Write("Enter your first name: ");
+       	        r.first_name = Console.ReadLine();  // taking input for first_name
+		    
+		Console.Write("Enter your last name: ");
+		r.last_name = Console.ReadLine();  // taking input for last_name
 
-            r.Display();  // printing full name
-            
-            Console.ReadLine();
+		r.Display();  // printing full name
+		    
+		Console.ReadLine();
         }
     }
 }
