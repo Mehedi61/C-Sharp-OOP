@@ -1,4 +1,5 @@
 // Original code https://www.tutorialspoint.com/csharp/csharp_classes.htm
+// Modified by MD. Mehedi Hasan
 
 using System;
 
@@ -15,29 +16,34 @@ namespace BoxApp {
 	class BoxTester {
 	
 		static void Main() {
+
+			double length, height, breadth, volume;
 		
 			Box Box1 = new Box();   // Declare Box1 of type Box
 			Box Box2 = new Box();   // Declare Box2 of type Box
-			double volume = 0.0;    // Store the volume of a Box.
 			
-			// Box1 specification
-			Box1.length = 6.0;
-			Box1.height = 6.0;
-			Box1.breadth = 7.0;
+
+			// Box1 specifications
+
+			length = Box1.length = 5.0;
+			height = Box1.height = 6.0;
+			breadth = Box1.breadth = 7.0;
+			volume = length * height * breadth;
+
+			Console.WriteLine("Volume of Box1: {0}", volume);  // Print the volume of Box1
 			
-			// box2 specification
-			Box2.length = 12.0;
-			Box2.height = 10.0;
-			Box2.breadth = 13.0;
+
+			// box2 specifications
+
+			length = Box2.length = 12.0;
+			height = Box2.height = 10.0;
+			breadth = Box2.breadth = 13.0;
+			volume = length * height * breadth;
 			
-			// volume of Box1
-			volume = Box1.length * Box1.height * Box1.breadth;
-			Console.WriteLine("Volume of Box1: {0}", volume);
-			
-			// volume of Box2
-			volume = Box2.length * Box2.height * Box2.breadth;
-			Console.WriteLine("Volume of Box2: {0}", volume);
-			Console.ReadKey();
+			Console.WriteLine("Volume of Box2: {0}", volume);  // Print the volume of Box2
+			//Console.ReadKey();
+			long memory = GC.GetTotalMemory(true);
+			Console.WriteLine(memory);
 		
 		}
 	
