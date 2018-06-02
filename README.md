@@ -4,7 +4,7 @@ So, in this repository I will add all of my OOP implementetions.
 
 ## How to run on Linux  
 
-Open your terminal and execute the commands one by one.  
+Open your Linux terminal and execute the commands one by one.  
 
 ``  
 git clone https://github.com/Mehedi61/C-Sharp-OOP.git ``  
