@@ -8,7 +8,7 @@ Open your Linux terminal and execute the following commands one by one.
 
 ```
 git clone https://github.com/Mehedi61/C-Sharp-OOP.git  
-cd C-Sharp-OOP/source  
+cd C-Sharp-OOP/source/  
 mcs filename.cs    
 mono filename.exe    
 ```  
